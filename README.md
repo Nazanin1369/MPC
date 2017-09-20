@@ -1,5 +1,7 @@
 # Model Predictive Control Project
 
+View the running version here http://recordit.co/pezFcQgEdP
+
 ## Description
 
 This project is implementation of Model Predictive Control to drvie the car around the track.
