@@ -4,7 +4,10 @@
 
 This project is implementation of Model Predictive Control to drvie the car around the track.
 
-[![Result Video](https://youtu.be/1ejz7y5-Iog)](./result.png)
+In MPC, at each time step, we compute control by solving an openloop optimization problem for the prediction horizon.
+The we apply the first value of the computed control sequence.At the next time step, get we get the model state and re-compute.
+
+[![Result Video](./result.png)](https://youtu.be/1ejz7y5-Iog)
 
 
 ### The Model
