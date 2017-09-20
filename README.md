@@ -4,7 +4,7 @@
 
 This project is implementation of Model Predictive Control to drvie the car around the track.
 
-[![Result Video]()]()
+[![Result Video](https://youtu.be/1ejz7y5-Iog)](./result.png)
 
 
 ### The Model
@@ -18,7 +18,7 @@ The model used in this project is Kinematic Bicycle Model which consists of foll
  - `cte`: The Cross-Track-Error
  - `epsi`: The orientation error
 
-The update equation is following:
+The update equations are as following:
 
 ```cpp
 fg[1 + x_start + t] = x1 - (x0 + v0 * CppAD::cos(psi0) * dt);
